@@ -4,6 +4,7 @@ tenants:
     mac_vrf_vni_base: 10000
     vrfs:
       - name: VRF_A
+        redistribute_mlag_ibgp_peering_vrfs: False
         vrf_vni: 10
         svis:
           - id: 10
